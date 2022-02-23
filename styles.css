@@ -1,0 +1,110 @@
+html{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #FFE9DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    background-color: #909090;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 41px;
+    gap: 19px;
+    box-shadow: 0px 10px 0px 3px #4A4A4A;
+}
+
+.drawingBoard {
+    height: 465px;
+    width: 728px;
+    margin: 41px 68px 40px 0px;
+    background-color: #EDF6F9;
+    border-radius: 22px;
+    border: 6px solid #4A4A4A;
+}
+
+.toolBox{
+    margin: 41px 0px 40px 38px;
+    background-color: #4A4A4A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 465px;
+    width: 129px;
+    border-radius: 22px;
+}
+
+.colorPicker {
+    display: none;
+}
+.colorSelected {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #EDF6F9;
+    border: 4px solid #909090;
+}
+
+.btn {
+    height: 32px;
+    width: 100px;
+    background-color: #EDF6F9;
+    border-radius: 8px;
+    border: 3px solid #909090;
+}
+
+.rangeSlider {
+    height: 227px;
+    width: 18px;
+}
+
+.rangeSlider input {
+    width: 227px;
+    height: 18px;
+    transform-origin: 9px 9px;
+    transform: rotate(90deg);
+}
+
+.gridRange {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #EDF6F9;
+    border: 3px solid #909090;
+    border-radius: 8px;
+}
+
+.gridRange::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 35px;
+    width: 35px;
+    background-color: #FA6A34;
+    border: 1px solid #4A4A4A;
+    border-radius: 50%;
+    box-shadow: 2px 0px 6px 0px #00000042;
+}
+
+.resetImg{
+    height: 24px;
+    width: 24px;
+    filter: invert(30%) sepia(0%) saturate(3482%) hue-rotate(335deg) brightness(94%) contrast(96%);
+}
+
+.rainbowImg{
+    height: 25px;
+    width: 25px;
+    filter: invert(30%) sepia(0%) saturate(3482%) hue-rotate(335deg) brightness(94%) contrast(96%);
+}

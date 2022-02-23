@@ -7,5 +7,27 @@
     </head>
     <body>
         <script src="main.js" defer></script>
+        <div class='main'>
+            <div class='toolBox'>
+                <div class='rangeSlider'>
+                    <input type='range' min='16' max='100' value='16' class='gridRange'>
+                </div>
+                <div class='resetTool'>
+                    <button class='reset btn'>
+                        <img src='images/reshot-icon-eraser-BU8ZN9RYSL.svg' class='resetImg'>
+                    </button>
+                </div>
+                <div class='rainbowTool'>
+                    <button class='rainbow btn'>
+                        <img src='images/reshot-icon-rainbow-cloud-C7DZXL9WEU.svg' class='rainbowImg'>
+                    </button>
+                </div>
+                <div class='colorPickerTool'>
+                    <input type="color" class='colorPicker'>
+                    <div class='colorSelected'></div>
+                </div>
+            </div>
+            <div class='drawingBoard'></div>
+        </div>
     </body>
 </html>
