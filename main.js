@@ -65,7 +65,7 @@ rainbowChkBox.addEventListener('click', () => {
         rainbowImg.style.filter = 'invert(100%) sepia(15%) saturate(0%) hue-rotate(252deg) brightness(105%) contrast(100%)';
     } else {
         rainbowBtnBkg.style.backgroundColor = '#EDF6F9';
-        rainbowImg.style.filter = 'none';
+        rainbowImg.style.filter = 'invert(30%) sepia(0%) saturate(3482%) hue-rotate(335deg) brightness(94%) contrast(96%)';
     }
 
 })
